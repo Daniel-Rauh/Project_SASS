@@ -1,0 +1,123 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+#hero {
+  background: linear-gradient(45deg, #69f2fb 12.5%, #F9C747 12.5%, #F9C747 25%, #EE5D5D 25%, #EE5D5D 37.5%, #D48FF9 37.5%, #D48FF9 50%, #69f2fb 50%, #69f2fb 62.5%, #F9C747 62.5%, #F9C747 75%, #EE5D5D 75%, #EE5D5D 87.5%, #D48FF9 87.5%, #D48FF9 100%);
+  height: 100vh;
+}
+#hero header {
+  height: 50px;
+  padding: 20px;
+}
+#hero header a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 2rem;
+}
+#hero article {
+  height: calc(100vh - 150px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#hero h1 {
+  color: #fff;
+  font-size: 14rem;
+  font-weight: 400;
+  margin: 0;
+  position: relative;
+}
+#hero h1 .circle {
+  width: 150px;
+  height: 150px;
+  background: #F9C747;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: absolute;
+  border: 1px solid #fff;
+  top: -30%;
+  right: -10%;
+}
+#hero h1 .circle h2 {
+  color: #fff;
+  font-size: 6rem;
+  font-weight: 400;
+}
+#hero h3 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: 40;
+  margin: 0;
+}
+#hero .social {
+  height: 100px;
+  padding-right: 5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  flex-direction: row;
+}
+#hero .social i {
+  margin-right: 10px;
+}
+
+#about {
+  padding: 5vh 7.5% 0;
+}
+#about .about, #about .services {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10%;
+  margin-bottom: 10vh;
+}
+#about .about img, #about .services img {
+  width: 100%;
+}
+#about .about .text, #about .services .text {
+  width: 85%;
+  padding: 0 7.5%;
+}
+#about .about .text h1, #about .services .text h1 {
+  width: 80%;
+  margin: 5vh auto;
+  font-size: 2.5rem;
+}
+#about .about .text p, #about .services .text p {
+  width: 80%;
+  margin: 0 auto 5vh;
+}
+#about .about .text a, #about .services .text a {
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 5px 0;
+  background: #F9C747;
+  text-align: center;
+  color: #fff;
+  font-size: 1.7rem;
+  text-decoration: none;
+  transition: color 0.4s;
+}
+#about .about .text a:hover, #about .services .text a:hover {
+  color: #000000;
+}
+footer {
+  height: 50px;
+  background: linear-gradient(45deg, #69f2fb 12.5%, #F9C747 12.5%, #F9C747 25%, #EE5D5D 25%, #EE5D5D 37.5%, #D48FF9 37.5%, #D48FF9 50%, #69f2fb 50%, #69f2fb 62.5%, #F9C747 62.5%, #F9C747 75%, #EE5D5D 75%, #EE5D5D 87.5%, #D48FF9 87.5%, #D48FF9 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+footer p {
+  color: #fff;
+}
+
+/*# sourceMappingURL=style.css.map */
